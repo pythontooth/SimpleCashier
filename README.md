@@ -5,8 +5,9 @@ Before use make sure to:
 - Install required python libraries
 
 1. Installation of all required libraires:
-   - Run installation.bash
-  
+   - pip install sys
+   - pip install os
+   - pip install time
 
 
 If you find any bug/thing to be fixed please let me know :)
