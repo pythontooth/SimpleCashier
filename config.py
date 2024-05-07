@@ -1,25 +1,25 @@
 # Payments
 name_dayincome = 'day_income.txt'
 income_tax = 0.23 # Tax
-after_tax = 1 - income_tax # Displays the after tax total
-tax_percentage = income_tax * 100 # Displays the tax percentage
+after_tax = 1 - income_tax # Don't touch this
+tax_percentage = income_tax * 100 # Don't touch this
 
 # Transactions, discounts
 name_transactions = 'transactions.txt'
 disc0 = 0.9  # Represents a 10% discount
-disc1 = str(100 - disc0 * 100) + "%"  # Calculate the final price after discount
+disc1 = str(100 - disc0 * 100) + "%"  # Don't touch this
 
 # PIN settings
 pin = "0000"
-pin_enabled = True
-pin_tries = 3
+pin_enabled = True #True: PIN enabled, False: PIN disabled
+pin_tries = 5 # PIN tries
 
 # Other
 command_end = "session_exit" # Ends the day/session
 clear_command = "clear" # Clears the terminal
 viewproducts_command = "view"
 
-# Users list
+# Users list - feel free to edit
 users = {
   "Patrick": 1,
   "Robert": 2,
@@ -33,7 +33,7 @@ users = {
   "Thomas": 10,
 }
 
-# Products list
+# Products list - feel free to edit
 products = {
     "apple": 2.99,
     "banana": 3.99,
@@ -83,4 +83,6 @@ products = {
     "lychee": 7.99,
     "example": 3.49
 }
+
+
 
