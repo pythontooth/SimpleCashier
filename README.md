@@ -1,4 +1,4 @@
-# SimpleCashier
+# SimpleCashier (It was an excersise for me)
 open-source simple cashier project.
 
 Before use make sure to:
